@@ -3,221 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us | Ozark Elite Contractors</title>
+    <title>Our Story | Ozark Elite Contractors | Northwest Arkansas's Master Builder</title>
     <meta
       name="description"
-      content="Learn about Ozark Elite Contractors, your trusted general contractor in Bentonville, AR. Meet our team, discover our story, and see why we’re the top choice in Northwest Arkansas."
+      content="Meet the artisans behind Ozark Elite Contractors. Founded by Mike Harrison, we are Bentonville's premier team for luxury remodeling and custom home construction."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <!-- Review and FAQ schema markup -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What areas do you serve?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We serve Bentonville, Rogers, Centerton, Bella Vista, Cave Springs, and surrounding communities within a 25-mile radius."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are you licensed and insured?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, Ozark Elite Contractors is fully licensed and insured in Arkansas."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What types of projects do you handle?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We handle remodeling, new construction, roofing, kitchens, bathrooms, additions, and outdoor living spaces."
-            }
-          }
-        ]
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "LocalBusiness",
-          "name": "Ozark Elite Contractors"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Sarah"
-        },
-        "reviewBody": "Ozark Elite Contractors exceeded our expectations. Professional, on time, and on budget!"
+        "@type": "AboutPage",
+        "description": "Ozark Elite Contractors specializes in premium remodeling and new construction in Bentonville, AR."
       }
     </script>
   </head>
   <body>
     <header role="banner">
       <nav role="navigation" aria-label="Main navigation">
-        <div class="logo">Ozark Elite Contractors</div>
+        <div class="logo">Ozark <span>Elite</span></div>
         <ul role="menubar" aria-label="Main navigation">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="about.html" aria-current="page">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" aria-current="page">Our Story</a></li>
+          <li><a href="contact.html">Request Quote</a></li>
         </ul>
       </nav>
     </header>
+
     <main role="main">
       <section class="hero" aria-label="Hero section">
-        <div class="hero-bg">
-          <h1>About Ozark Elite Contractors</h1>
-          <div class="hero-sub">
-            Your Trusted Partner in Bentonville &amp; Beyond
-          </div>
-          <a href="contact.html" class="cta" aria-label="Request a Quote"
-            >Request a Quote</a
-          >
+        <div class="hero-bg" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.5)), url('assets/hero.png');">
+          <h1>The Heart of Every Build</h1>
+          <div class="hero-sub">Craftsmanship, Integrity, and the Pursuit of Perfection in Northwest Arkansas.</div>
+          <a href="contact.html" class="cta">Work with Us</a>
         </div>
       </section>
+
       <div class="divider divider-angled"></div>
+
       <section class="our-story" aria-label="Our Story">
-        <h2>Our Story</h2>
-        <p>
-          Founded by Mike Harrison, Ozark Elite Contractors is committed to
-          quality, integrity, and customer satisfaction. With years of
-          experience in Northwest Arkansas, we bring your vision to life—on time
-          and on budget.
-        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem; align-items: center;">
+          <div class="reveal">
+            <h2>Our Story</h2>
+            <p>Founded by Mike Harrison, Ozark Elite Contractors was built on a simple principle: <strong>Do it right the first time, or don't do it at all.</strong></p>
+            <p>With over two decades of experience in the Arkansas construction industry, Mike saw a gap in the market for a builder who combined old-world craftsmanship with modern architectural innovation. Today, Ozark Elite is the region's premier choice for luxury home transformations.</p>
+          </div>
+          <div class="reveal">
+            <img src="assets/mike.png" alt="Mike Harrison, Founder of Ozark Elite Contractors" style="width: 100%; border-radius: 30px; box-shadow: var(--shadow-lg);" />
+          </div>
+        </div>
       </section>
-      <div class="divider divider-wave"></div>
-      <section class="our-process" aria-label="Our Process">
-        <h2>Our Process</h2>
+
+      <section class="storybrand reveal">
+        <h2>Our Three Pillars</h2>
         <div class="steps">
-          <div class="step"><span>1</span>Consultation</div>
-          <div class="step"><span>2</span>Build</div>
-          <div class="step"><span>3</span>Enjoy</div>
-        </div>
-        <p>
-          We guide you from the first conversation to the final walkthrough,
-          ensuring a smooth, stress-free experience.
-        </p>
-      </section>
-      <div class="divider divider-angled flip"></div>
-      <section class="community-values" aria-label="Community and Values">
-        <h2>Community & Values</h2>
-        <p>
-          We’re proud to serve Bentonville and the surrounding area, supporting
-          local causes and building lasting relationships.
-        </p>
-      </section>
-      <div class="divider divider-wave"></div>
-      <section class="reviews" id="reviews" aria-label="Client Reviews">
-        <h2>What Our Clients Say</h2>
-        <div class="review-cards">
-          <div class="review-card">
-            <p>
-              “Ozark Elite Contractors exceeded our expectations. Professional,
-              on time, and on budget!”
-            </p>
-            <span>- Sarah, Bentonville</span>
+          <div class="step">
+            <h3 style="color: var(--accent); margin-bottom: 1rem;">Architectural Integrity</h3>
+            <p>We work with the region's best designers to ensure every build is structurally sound and aesthetically timeless.</p>
           </div>
-          <div class="review-card">
-            <p>
-              “The remodel was seamless. Mike and his team are the best in NWA.”
-            </p>
-            <span>- James, Rogers</span>
+          <div class="step">
+            <h3 style="color: var(--accent); margin-bottom: 1rem;">Master Craftsmen</h3>
+            <p>Our team isn't just workers—they are artisans. We specialize in precision details that average builders overlook.</p>
           </div>
-          <div class="review-card">
-            <p>
-              “Honest, reliable, and skilled. Highly recommend for any project.”
-            </p>
-            <span>- Linda, Centerton</span>
+          <div class="step">
+            <h3 style="color: var(--accent); margin-bottom: 1rem;">Radical Transparency</h3>
+            <p>From exact-tier pricing to weekly project updates, you'll always know exactly where your investment is going.</p>
           </div>
         </div>
       </section>
-      <div class="divider divider-angled"></div>
+
       <section class="gallery" id="gallery" aria-label="Project Gallery">
-        <h2>Project Gallery</h2>
+        <h2 class="reveal">A Legacy of Excellence</h2>
         <div class="gallery-grid">
-          <div class="gallery-img">
-            <img
-              src="assets/gallery1.jpg"
-              alt="Finished kitchen remodel project"
-              loading="lazy"
-            />
-            <small class="img-desc"
-              >[Replace with a finished kitchen remodel]</small
-            >
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery2.jpg"
-              alt="New home exterior project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a new home exterior]</small>
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery3.jpg"
-              alt="Bathroom renovation project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a bathroom renovation]</small>
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery4.jpg"
-              alt="Deck or outdoor living space project"
-              loading="lazy"
-            />
-            <small class="img-desc"
-              >[Replace with a deck or outdoor living space]</small
-            >
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery5.jpg"
-              alt="Roofing project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a roofing project]</small>
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery6.jpg"
-              alt="Home addition project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a home addition]</small>
-          </div>
+          <div class="gallery-img reveal"><img src="assets/gallery1.png" alt="Luxury Master Kitchen Remodel" /></div>
+          <div class="gallery-img reveal"><img src="assets/gallery2.png" alt="High-End Spa Bathroom" /></div>
+          <div class="gallery-img reveal"><img src="assets/gallery3.png" alt="Modern NWA Home Exterior" /></div>
+          <div class="gallery-img reveal"><img src="assets/gallery4.png" alt="Custom Architectural Lighting" /></div>
+          <div class="gallery-img reveal"><img src="assets/gallery5.png" alt="Outdoor Living Space" /></div>
+          <div class="gallery-img reveal"><img src="assets/gallery6.png" alt="Premium Roofing Solution" /></div>
         </div>
       </section>
+
       <div class="divider divider-wave"></div>
-      <section class="cta-section" aria-label="Call to Action">
-        <h2>Let’s Build Something Great Together</h2>
-        <a href="contact.html" class="cta">Request a Quote</a>
+
+      <section class="cta-section reveal" style="text-align: center;">
+        <h2>Ready to build your legacy?</h2>
+        <p style="margin-bottom: 2rem;">Let Mike and his team guide you through a stress-free construction experience.</p>
+        <a href="contact.html" class="cta">Start Your Private Consultation</a>
       </section>
     </main>
+
     <footer>
       <div class="footer-content">
-        <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
-        <span
-          >Built by
-          <a href="https://localsearchally.com" style="color: #f0f0f0"
-            >Local Search</a
-          ><span style="color: #7bafd4">Ally</span></span
-        >
+        <div class="logo">Ozark <span>Elite</span></div>
+        <div class="footer-copy">
+          <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
+          <p>Built with ❤️ by <a href="https://localsearchally.com">Local Search <span>Ally</span></a></p>
+        </div>
       </div>
     </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
+

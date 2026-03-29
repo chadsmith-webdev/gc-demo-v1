@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ozark Elite Contractors | Bentonville, AR</title>
+    <title>Ozark Elite Contractors | Premium General Contracting in Bentonville, AR</title>
     <meta
       name="description"
-      content="Ozark Elite Contractors: Trusted general contractors serving Bentonville and Northwest Arkansas. Remodeling, new construction, roofing, kitchens, and more. Request a quote today!"
+      content="Ozark Elite Contractors: Northwest Arkansas's premier choice for luxury remodeling, custom new construction, and high-end roofing. Experience quality craftsmanship in Bentonville."
     />
-    <!-- Google Fonts: Montserrat (headings), Open Sans (body) -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <!-- Schema markup for LocalBusiness and Organization -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Ozark Elite Contractors",
-        "image": "https://localsearchally.com/demo-assets/ozark-elite-logo.png",
+        "image": "assets/hero.png",
         "@id": "https://ozarkelitecontractors.com",
         "url": "https://ozarkelitecontractors.com",
         "telephone": "+1-479-555-0198",
@@ -40,42 +38,10 @@
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "opens": "08:00",
             "closes": "17:00"
           }
-        ],
-        "sameAs": [
-          "https://www.facebook.com/ozarkelitecontractors",
-          "https://www.instagram.com/ozarkelitecontractors"
-        ]
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Ozark Elite Contractors",
-        "url": "https://ozarkelitecontractors.com",
-        "logo": "https://localsearchally.com/demo-assets/ozark-elite-logo.png",
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+1-479-555-0198",
-            "contactType": "customer service",
-            "areaServed": "US",
-            "availableLanguage": ["English"]
-          }
-        ],
-        "sameAs": [
-          "https://www.facebook.com/ozarkelitecontractors",
-          "https://www.instagram.com/ozarkelitecontractors"
         ]
       }
     </script>
@@ -83,311 +49,109 @@
   <body>
     <header role="banner">
       <nav role="navigation" aria-label="Main navigation">
-        <div class="logo">Ozark Elite Contractors</div>
+        <div class="logo">Ozark <span>Elite</span></div>
         <ul role="menubar" aria-label="Main navigation">
           <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Request Quote</a></li>
         </ul>
       </nav>
     </header>
+
     <main role="main">
       <section class="hero" aria-label="Hero section">
-        <div class="hero-bg">
-          <h1>Ozark Elite Contractors</h1>
-          <div class="hero-sub">Bentonville’s Trusted General Contractors</div>
-          <a href="contact.html" class="cta" aria-label="Request a Quote"
-            >Request a Quote</a
-          >
+        <div class="hero-bg" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.5)), url('assets/hero.png');">
+          <h1>Built for Life. <br>Designed for <i>You</i>.</h1>
+          <div class="hero-sub">Bentonville’s trusted partner for high-end home transformations and master-level craftsmanship.</div>
+          <div class="hero-actions">
+            <a href="contact.html" class="cta" aria-label="Request a Consultation">Start Your Project</a>
+            <a href="services.html" class="cta-secondary">View Our Work</a>
+          </div>
         </div>
       </section>
+
       <div class="divider divider-angled"></div>
-      <section aria-label="Our Services">
-        <h2>Our Services</h2>
+
+      <section class="services-overview" aria-label="Our Services">
+        <h2 class="reveal">Exceptional Services</h2>
         <div class="service-cards">
-          <div class="service-card" tabindex="0">
-            <span
-              aria-hidden="true"
-              style="display: block; margin-bottom: 0.5rem"
-            >
-              <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-                <rect width="48" height="48" rx="12" fill="#7bafd4" />
-                <path
-                  d="M14 34v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M24 34V18"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M18 18h12"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <img src="assets/remodeling.jpg" alt="Remodeling" loading="lazy" />
-            <small class="img-desc"
-              >[Replace with a photo of a recent remodeling project]</small
-            >
-            <h3>Remodeling</h3>
-            <p>
-              Transform your space with expert remodeling for kitchens,
-              bathrooms, and more.
-            </p>
+          <div class="service-card reveal" tabindex="0">
+            <img src="assets/remodeling.png" alt="Luxury Bathroom Remodeling" loading="lazy" />
+            <h3>Premium Remodeling</h3>
+            <p>From spa-like primary suites to gourmet chef's kitchens, we breathe new life into every corner of your home.</p>
           </div>
-          <div class="service-card" tabindex="0">
-            <span
-              aria-hidden="true"
-              style="display: block; margin-bottom: 0.5rem"
-            >
-              <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-                <rect width="48" height="48" rx="12" fill="#7bafd4" />
-                <path
-                  d="M12 34V20l12-8 12 8v14"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M20 34V24h8v10"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <img
-              src="assets/new-construction.jpg"
-              alt="New Construction"
-              loading="lazy"
-            />
-            <small class="img-desc"
-              >[Replace with a photo of a new home or addition]</small
-            >
-            <h3>New Construction</h3>
-            <p>
-              From the ground up, we build homes and additions with quality
-              craftsmanship.
-            </p>
+          <div class="service-card reveal" tabindex="0">
+            <img src="assets/new-construction.png" alt="Custom Modern Home Construction" loading="lazy" />
+            <h3>Custom Construction</h3>
+            <p>Architectural excellence meets local expertise. We build custom homes that stand the test of time in NWA.</p>
           </div>
-          <div class="service-card" tabindex="0">
-            <span
-              aria-hidden="true"
-              style="display: block; margin-bottom: 0.5rem"
-            >
-              <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-                <rect width="48" height="48" rx="12" fill="#7bafd4" />
-                <path
-                  d="M14 34l10-16 10 16"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <circle cx="24" cy="28" r="2" fill="#1a2238" />
-              </svg>
-            </span>
-            <img src="assets/roofing.jpg" alt="Roofing" loading="lazy" />
-            <small class="img-desc"
-              >[Replace with a photo of a roofing project]</small
-            >
-            <h3>Roofing</h3>
-            <p>
-              Reliable roofing installation and repair to protect your
-              investment.
-            </p>
-          </div>
-          <div class="service-card" tabindex="0">
-            <span
-              aria-hidden="true"
-              style="display: block; margin-bottom: 0.5rem"
-            >
-              <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-                <rect width="48" height="48" rx="12" fill="#7bafd4" />
-                <path
-                  d="M16 32h16M16 24h16M16 16h16"
-                  stroke="#1a2238"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <img
-              src="assets/kitchen-bath.jpg"
-              alt="Kitchens & Bathrooms"
-              loading="lazy"
-            />
-            <small class="img-desc"
-              >[Replace with a photo of a kitchen or bathroom remodel]</small
-            >
-            <h3>Kitchens & Bathrooms</h3>
-            <p>
-              Upgrade your most important spaces with beautiful, functional
-              design.
-            </p>
+          <div class="service-card reveal" tabindex="0">
+            <img src="assets/roofing.png" alt="High-End Residential Roofing" loading="lazy" />
+            <h3>Roofing Excellence</h3>
+            <p>Protecting your investment with premium materials and unparalleled attention to structural detail.</p>
           </div>
         </div>
-        <a href="services.html" class="cta-secondary">Learn More</a>
       </section>
-      <div class="divider divider-wave"></div>
-      <!-- StoryBrand Narrative -->
-      <section class="storybrand" aria-label="StoryBrand Narrative">
-        <h2>You Have a Vision. We Make It Real.</h2>
+
+      <section class="storybrand reveal" aria-label="Our Process">
+        <h2>Your Journey to a Perfect Home</h2>
         <div class="steps">
-          <div class="step"><span>1</span>Consult</div>
-          <div class="step"><span>2</span>Build</div>
-          <div class="step"><span>3</span>Enjoy</div>
+          <div class="step">
+            <span>1</span>
+            <h3>Consult</h3>
+            <p>We listen to your vision and draft a master plan that fits your life.</p>
+          </div>
+          <div class="step">
+            <span>2</span>
+            <h3>Build</h3>
+            <p>Our expert crews bring specialized skills to every stage of construction.</p>
+          </div>
+          <div class="step">
+            <span>3</span>
+            <h3>Enjoy</h3>
+            <p>Walk through your finished space and start your next chapter.</p>
+          </div>
         </div>
-        <p>
-          We listen, plan, and deliver—so you can enjoy the results,
-          stress-free.
-        </p>
+        <p style="max-width: 600px; margin: 2rem auto 0;">No stress, no surprises. Just quality you can see and integrity you can trust.</p>
       </section>
-      <!-- Social Proof -->
-      <div class="divider divider-angled flip"></div>
-      <section class="reviews" aria-label="Client Reviews">
-        <h2>What Our Clients Say</h2>
+
+      <section class="reviews reveal" aria-label="Client Success Stories">
+        <h2>What Our Neighbors Say</h2>
         <div class="review-cards">
           <div class="review-card">
-            <p>
-              “Ozark Elite Contractors exceeded our expectations. Professional,
-              on time, and on budget!”
-            </p>
-            <span>- Sarah, Bentonville</span>
+            <p>"Ozark Elite turned our dated kitchen into the heart of our home. Mike's team treated our house with so much respect—it was a truly premium experience."</p>
+            <span style="font-weight: 700;">— Sarah Harrison, Bentonville</span>
           </div>
           <div class="review-card">
-            <p>
-              “The remodel was seamless. Mike and his team are the best in NWA.”
-            </p>
-            <span>- James, Rogers</span>
-          </div>
-          <div class="review-card">
-            <p>
-              “Honest, reliable, and skilled. Highly recommend for any project.”
-            </p>
-            <span>- Linda, Centerton</span>
+            <p>"The best investment we've ever made. Their attention to detail on our custom home build was incredible. Honest, transparent, and master craftsmen."</p>
+            <span style="font-weight: 700;">— David Miller, Rogers</span>
           </div>
         </div>
-        <a href="about.html#reviews" class="cta-secondary">See More Reviews</a>
       </section>
-      <!-- Project Gallery -->
+
       <div class="divider divider-wave"></div>
-      <section class="gallery" aria-label="Project Gallery">
-        <h2>Project Gallery</h2>
-        <div class="gallery-grid">
-          <div class="gallery-img">
-            <img
-              src="assets/gallery1.jpg"
-              alt="Finished kitchen remodel project"
-              loading="lazy"
-            />
-            <small class="img-desc"
-              >[Replace with a finished kitchen remodel]</small
-            >
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery2.jpg"
-              alt="New home exterior project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a new home exterior]</small>
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery3.jpg"
-              alt="Bathroom renovation project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a bathroom renovation]</small>
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery4.jpg"
-              alt="Deck or outdoor living space project"
-              loading="lazy"
-            />
-            <small class="img-desc"
-              >[Replace with a deck or outdoor living space]</small
-            >
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery5.jpg"
-              alt="Roofing project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a roofing project]</small>
-          </div>
-          <div class="gallery-img">
-            <img
-              src="assets/gallery6.jpg"
-              alt="Home addition project"
-              loading="lazy"
-            />
-            <small class="img-desc">[Replace with a home addition]</small>
-          </div>
-          <small class="img-desc"
-            >[Replace with a map showing your service area]</small
-          >
-        </div>
-        <a href="about.html#gallery" class="cta-secondary">View Full Gallery</a>
-      </section>
-      <!-- Service Area Map -->
-      <div class="divider divider-angled"></div>
-      <section class="service-area" aria-label="Service Area">
-        <h2>Service Area</h2>
-        <img
-          src="assets/service-area-map.jpg"
-          alt="Service Area Map"
-          loading="lazy"
-        />
-        <p>
-          Serving Bentonville, Rogers, Centerton, Bella Vista, Cave Springs, and
-          surrounding communities within 25 miles.
-        </p>
-      </section>
-      <!-- Secondary CTA -->
-      <div class="divider divider-wave"></div>
-      <section class="cta-section" aria-label="Call to Action">
-        <h2>Ready to Start?</h2>
-        <a href="contact.html" class="cta">Request a Quote</a>
-      </section>
-      <!-- Contact Teaser -->
-      <div class="divider divider-angled flip"></div>
-      <section class="contact-teaser" aria-label="Contact Teaser">
-        <h2>Contact Us</h2>
-        <p>
-          Call <a href="tel:4795550198">(479) 555-0198</a> or email
-          <a href="mailto:info@ozarkelitecontractors.com"
-            >info@ozarkelitecontractors.com</a
-          >
-        </p>
-        <p>123 Main St, Bentonville, AR 72712</p>
-        <a href="contact.html" class="cta-secondary">Contact Us</a>
+
+      <section class="cta-section reveal" style="text-align: center;">
+        <h2>Ready to start your transformation?</h2>
+        <p style="margin-bottom: 2rem;">Join hundreds of satisfied NWA homeowners who chose quality without compromise.</p>
+        <a href="contact.html" class="cta">Schedule Your Free Consultation</a>
       </section>
     </main>
+
     <footer>
       <div class="footer-content">
-        <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
-        <span
-          >Built by
-          <a href="https://localsearchally.com" style="color: #f0f0f0"
-            >Local Search</a
-          ><span style="color: #7bafd4">Ally</span></span
-        >
+        <div class="logo">Ozark <span>Elite</span></div>
+        <p>Expert General Contracting serving Bentonville, Rogers, and all of NWA.</p>
+        <div class="footer-copy">
+          <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
+          <p>Built with ❤️ by <a href="https://localsearchally.com">Local Search <span>Ally</span></a></p>
+        </div>
       </div>
     </footer>
+
     <script src="main.js"></script>
   </body>
+</html>
+ </body>
 </html>

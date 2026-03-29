@@ -3,24 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Services | Ozark Elite Contractors</title>
+    <title>Our Services | Ozark Elite Contractors | Bentonville's Luxury Builder</title>
     <meta
       name="description"
-      content="Explore the full range of general contracting services from Ozark Elite Contractors: remodeling, new construction, roofing, kitchens, bathrooms, and more in Northwest Arkansas."
+      content="Explore our master-level contracting services: Luxury kitchen and bath remodeling, custom home building, and premium roofing solutions in Northwest Arkansas."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <!-- Service schema markup -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Service",
         "serviceType": [
-          "Remodeling",
-          "New Construction",
-          "Roofing",
-          "Kitchens & Bathrooms",
-          "Additions",
-          "Outdoor Living Spaces"
+          "Luxury Remodeling",
+          "Custom New Construction",
+          "Premium Roofing",
+          "Gourmet Kitchens",
+          "Spa Bathrooms",
+          "Home Additions"
         ],
         "provider": {
           "@type": "LocalBusiness",
@@ -34,15 +37,6 @@
             "addressCountry": "US"
           },
           "telephone": "+1-479-555-0198"
-        },
-        "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": 36.3729,
-            "longitude": -94.2088
-          },
-          "geoRadius": 40.23
         }
       }
     </script>
@@ -50,267 +44,114 @@
   <body>
     <header role="banner">
       <nav role="navigation" aria-label="Main navigation">
-        <div class="logo">Ozark Elite Contractors</div>
+        <div class="logo">Ozark <span>Elite</span></div>
         <ul role="menubar" aria-label="Main navigation">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html" aria-current="page">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Request Quote</a></li>
         </ul>
       </nav>
     </header>
+
     <main role="main">
       <section class="hero" aria-label="Hero section">
-        <div class="hero-bg">
-          <h1>Our Services</h1>
-          <div class="hero-sub">
-            Comprehensive General Contracting for Northwest Arkansas
-          </div>
-          <a href="contact.html" class="cta" aria-label="Request a Quote"
-            >Request a Quote</a
-          >
+        <div class="hero-bg" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.5)), url('assets/hero.png');">
+          <h1>Master-Level Services</h1>
+          <div class="hero-sub">Uncompromising quality for Northwest Arkansas's most discerning homeowners.</div>
+          <a href="contact.html" class="cta">Request a Private Consultation</a>
         </div>
       </section>
+
       <div class="divider divider-angled"></div>
-      <section class="service-list" aria-label="Service List">
-        <div class="service-card" tabindex="0">
-          <span
-            aria-hidden="true"
-            style="display: block; margin-bottom: 0.5rem"
-          >
-            <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-              <rect width="48" height="48" rx="12" fill="#7bafd4" />
-              <path
-                d="M14 34v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M24 34V18"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-              <path
-                d="M18 18h12"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <img src="assets/remodeling.jpg" alt="Remodeling" loading="lazy" />
-          <img
-            src="assets/remodeling.jpg"
-            alt="Remodeling project"
-            loading="lazy"
-          />
-          <small class="img-desc"
-            >[Replace with a photo of a recent remodeling project]</small
-          >
-          <h2>Remodeling</h2>
-          <p>
-            Transform kitchens, bathrooms, and living spaces with expert
-            remodeling.
-          </p>
-          <a href="contact.html" class="cta">Request a Quote</a>
-        </div>
-        <div class="service-card" tabindex="0">
-          <span
-            aria-hidden="true"
-            style="display: block; margin-bottom: 0.5rem"
-          >
-            <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-              <rect width="48" height="48" rx="12" fill="#7bafd4" />
-              <path
-                d="M12 34V20l12-8 12 8v14"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M20 34V24h8v10"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <img
-            src="assets/new-construction.jpg"
-            alt="New Construction"
-            loading="lazy"
-          />
-          <img
-            src="assets/new-construction.jpg"
-            alt="New construction project"
-            loading="lazy"
-          />
-          <small class="img-desc"
-            >[Replace with a photo of a new home or addition]</small
-          >
-          <h2>New Construction</h2>
-          <p>
-            Custom homes and additions built with quality and care from the
-            ground up.
-          </p>
-          <a href="contact.html" class="cta">Request a Quote</a>
-        </div>
-        <div class="service-card" tabindex="0">
-          <span
-            aria-hidden="true"
-            style="display: block; margin-bottom: 0.5rem"
-          >
-            <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-              <rect width="48" height="48" rx="12" fill="#7bafd4" />
-              <path
-                d="M14 34l10-16 10 16"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <circle cx="24" cy="28" r="2" fill="#1a2238" />
-            </svg>
-          </span>
-          <img src="assets/roofing.jpg" alt="Roofing" loading="lazy" />
-          <img src="assets/roofing.jpg" alt="Roofing project" loading="lazy" />
-          <small class="img-desc"
-            >[Replace with a photo of a roofing project]</small
-          >
-          <h2>Roofing</h2>
-          <p>Durable roofing installation and repairs to protect your home.</p>
-          <a href="contact.html" class="cta">Request a Quote</a>
-        </div>
-        <div class="service-card" tabindex="0">
-          <span
-            aria-hidden="true"
-            style="display: block; margin-bottom: 0.5rem"
-          >
-            <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-              <rect width="48" height="48" rx="12" fill="#7bafd4" />
-              <path
-                d="M16 32h16M16 24h16M16 16h16"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <img
-            src="assets/kitchen-bath.jpg"
-            alt="Kitchens & Bathrooms"
-            loading="lazy"
-          />
-          <img
-            src="assets/kitchen-bath.jpg"
-            alt="Kitchen or bathroom remodel project"
-            loading="lazy"
-          />
-          <small class="img-desc"
-            >[Replace with a photo of a kitchen or bathroom remodel]</small
-          >
-          <h2>Kitchens & Bathrooms</h2>
-          <p>Upgrade your kitchen or bath with beautiful, functional design.</p>
-          <a href="contact.html" class="cta">Request a Quote</a>
-        </div>
-        <div class="service-card" tabindex="0">
-          <span
-            aria-hidden="true"
-            style="display: block; margin-bottom: 0.5rem"
-          >
-            <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-              <rect width="48" height="48" rx="12" fill="#7bafd4" />
-              <path
-                d="M12 34V20l12-8 12 8v14"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M20 34V24h8v10"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <img src="assets/additions.jpg" alt="Additions" loading="lazy" />
-          <img
-            src="assets/additions.jpg"
-            alt="Home addition project"
-            loading="lazy"
-          />
-          <small class="img-desc"
-            >[Replace with a photo of a home addition]</small
-          >
-          <h2>Additions</h2>
-          <p>Expand your living space with seamless home additions.</p>
-          <a href="contact.html" class="cta">Request a Quote</a>
-        </div>
-        <div class="service-card" tabindex="0">
-          <span
-            aria-hidden="true"
-            style="display: block; margin-bottom: 0.5rem"
-          >
-            <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-              <rect width="48" height="48" rx="12" fill="#7bafd4" />
-              <path
-                d="M16 32h16M16 24h16M16 16h16"
-                stroke="#1a2238"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <img
-            src="assets/outdoor.jpg"
-            alt="Outdoor Living Spaces"
-            loading="lazy"
-          />
-          <img
-            src="assets/outdoor.jpg"
-            alt="Outdoor living space project"
-            loading="lazy"
-          />
-          <small class="img-desc"
-            >[Replace with a photo of an outdoor living space]</small
-          >
-          <h2>Outdoor Living Spaces</h2>
-          <p>Decks, patios, and outdoor kitchens for year-round enjoyment.</p>
-          <a href="contact.html" class="cta">Request a Quote</a>
+
+      <section class="service-details" aria-label="Detailed Service List">
+        <h2 class="reveal">Built to Perfection</h2>
+        
+        <div class="service-cards">
+          <!-- Remodeling -->
+          <div class="service-card reveal">
+            <img src="assets/remodeling.png" alt="Luxury Bathroom Remodel" />
+            <h3>Premium Remodeling</h3>
+            <p>We specialize in full-home transformations that elevate your lifestyle. From open-concept living spaces to high-tech primary suites, our remodeling process is designed for seamless integration and stunning results.</p>
+            <ul style="text-align: left; margin: 1rem 0; padding-left: 1.5rem;">
+              <li>Custom Millwork & Cabinetry</li>
+              <li>High-End Flooring Solutions</li>
+              <li>Structural Reconfigurations</li>
+            </ul>
+            <a href="contact.html" class="cta" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">Enquire Now</a>
+          </div>
+
+          <!-- New Construction -->
+          <div class="service-card reveal">
+            <img src="assets/new-construction.png" alt="Modern Luxury Home Exterior" />
+            <h3>Custom Construction</h3>
+            <p>Your dream home deserves a master builder. We combine architectural innovation with Arkansas-tough durability to create custom residences that are as beautiful as they are functional.</p>
+            <ul style="text-align: left; margin: 1rem 0; padding-left: 1.5rem;">
+              <li>Site Selection & Planning</li>
+              <li>Modern Energy Efficiency</li>
+              <li>Signature Architectural Details</li>
+            </ul>
+            <a href="contact.html" class="cta" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">Start Building</a>
+          </div>
+
+          <!-- Roofing -->
+          <div class="service-card reveal">
+            <img src="assets/roofing.png" alt="High-End Roofing Detail" />
+            <h3>Roofing Excellence</h3>
+            <p>A roof is more than protection—it's a statement. We provide premium roofing solutions using the industry's most durable materials, backed by a commitment to structural integrity and aesthetic harmony.</p>
+            <ul style="text-align: left; margin: 1rem 0; padding-left: 1.5rem;">
+              <li>Architectural Shingles</li>
+              <li>Designer Metal Roofing</li>
+              <li>Precision Gutter Systems</li>
+            </ul>
+            <a href="contact.html" class="cta" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">Get an Estimate</a>
+          </div>
         </div>
       </section>
+
+      <section class="storybrand reveal" style="background: var(--background); color: var(--text); border: 2px solid var(--primary);">
+        <h2 style="color: var(--primary);">Why Choose Ozark Elite?</h2>
+        <div class="steps">
+          <div class="step">
+            <span style="background: var(--primary); color: var(--accent);">✓</span>
+            <h3 style="color: var(--primary);">Licensed & Insured</h3>
+            <p>Full protection for your peace of mind and property value.</p>
+          </div>
+          <div class="step">
+            <span style="background: var(--primary); color: var(--accent);">✓</span>
+            <h3 style="color: var(--primary);">Transparent Pricing</h3>
+            <p>No hidden fees. Just honest, exact-tier investment planning.</p>
+          </div>
+          <div class="step">
+            <span style="background: var(--primary); color: var(--accent);">✓</span>
+            <h3 style="color: var(--primary);">NWA Local</h3>
+            <p>Deep roots in Bentonville. We know the land and the local code.</p>
+          </div>
+        </div>
+      </section>
+
       <div class="divider divider-wave"></div>
-      <section class="why-choose-us" aria-label="Why Choose Us">
-        <h2>Why Choose Ozark Elite?</h2>
-        <ul>
-          <li>Licensed & Insured</li>
-          <li>Transparent Pricing</li>
-          <li>Local Experience</li>
-        </ul>
-      </section>
-      <div class="divider divider-angled flip"></div>
-      <section class="cta-section" aria-label="Call to Action">
+
+      <section class="cta-section reveal" style="text-align: center;">
         <h2>Ready to discuss your project?</h2>
-        <a href="contact.html" class="cta">Request a Quote</a>
+        <p style="margin-bottom: 2rem;">Let's draft the blueprint for your home's next chapter.</p>
+        <a href="contact.html" class="cta">Schedule a Consultation</a>
       </section>
     </main>
+
     <footer>
       <div class="footer-content">
-        <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
-        <span
-          >Built by
-          <a href="https://localsearchally.com" style="color: #f0f0f0"
-            >Local Search</a
-          ><span style="color: #7bafd4">Ally</span></span
-        >
+        <div class="logo">Ozark <span>Elite</span></div>
+        <p>Master-Level General Contracting in Bentonville, AR.</p>
+        <div class="footer-copy">
+          <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
+          <p>Built with ❤️ by <a href="https://localsearchally.com">Local Search <span>Ally</span></a></p>
+        </div>
       </div>
     </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
+
