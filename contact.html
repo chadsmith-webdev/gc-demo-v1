@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Ozark Elite Contractors</title>
+    <meta
+      name="description"
+      content="Contact Ozark Elite Contractors in Bentonville, AR for your next project. Call, email, or request a quote online. Serving Northwest Arkansas."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- ContactPoint and FAQ schema markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPoint",
+        "telephone": "+1-479-555-0198",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": ["English"]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How can I request a quote?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fill out the contact form, call, or email us to request a quote for your project."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is your phone number?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can reach us at (479) 555-0198."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where are you located?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "123 Main St, Bentonville, AR 72712."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation" aria-label="Main navigation">
+        <div class="logo">Ozark Elite Contractors</div>
+        <ul role="menubar" aria-label="Main navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      <section class="hero" aria-label="Hero section">
+        <div class="hero-bg">
+          <h1>Contact Us</h1>
+          <div class="hero-sub">Let’s Talk About Your Project</div>
+          <a href="#contact-form" class="cta" aria-label="Request a Quote"
+            >Request a Quote</a
+          >
+        </div>
+      </section>
+      <div class="divider divider-angled"></div>
+      <section class="contact-methods" aria-label="Contact Methods">
+        <h2>Get in Touch</h2>
+        <ul>
+          <li>Phone: <a href="tel:4795550198">(479) 555-0198</a></li>
+          <li>
+            Email:
+            <a href="mailto:info@ozarkelitecontractors.com"
+              >info@ozarkelitecontractors.com</a
+            >
+          </li>
+          <li>Address: 123 Main St, Bentonville, AR 72712</li>
+        </ul>
+      </section>
+      <div class="divider divider-wave"></div>
+      <section class="contact-form" id="contact-form" aria-label="Contact Form">
+        <h2>Request a Quote</h2>
+        <form
+          action="#"
+          method="post"
+          aria-describedby="form-status"
+          novalidate
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+          <label for="service">Service Interested In</label>
+          <select id="service" name="service">
+            <option value="remodeling">Remodeling</option>
+            <option value="new-construction">New Construction</option>
+            <option value="roofing">Roofing</option>
+            <option value="kitchen-bath">Kitchens & Bathrooms</option>
+            <option value="additions">Additions</option>
+            <option value="outdoor">Outdoor Living Spaces</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+          <button type="submit" class="cta">Request a Quote</button>
+          <div
+            id="form-status"
+            class="form-status"
+            aria-live="polite"
+            style="margin-top: 1rem"
+          ></div>
+        </form>
+      </section>
+      <div class="divider divider-angled flip"></div>
+      <section class="map" aria-label="Our Location">
+        <h2>Our Location</h2>
+        <img
+          src="assets/service-area-map.jpg"
+          alt="Service Area Map for Bentonville and NWA"
+          loading="lazy"
+        />
+        <small class="img-desc"
+          >[Replace with a map showing your service area]</small
+        >
+      </section>
+      <div class="divider divider-wave"></div>
+      <section class="reviews" aria-label="Client Reviews">
+        <h2>What Our Clients Say</h2>
+        <div class="review-cards">
+          <div class="review-card">
+            <p>
+              “Ozark Elite Contractors exceeded our expectations. Professional,
+              on time, and on budget!”
+            </p>
+            <span>- Sarah, Bentonville</span>
+          </div>
+          <div class="review-card">
+            <p>
+              “The remodel was seamless. Mike and his team are the best in NWA.”
+            </p>
+            <span>- James, Rogers</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <span>&copy; 2026 Ozark Elite Contractors. All rights reserved.</span>
+        <span
+          >Built by
+          <a href="https://localsearchally.com" style="color: #f0f0f0"
+            >Local Search</a
+          ><span style="color: #7bafd4">Ally</span></span
+        >
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
